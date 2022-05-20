@@ -8,35 +8,19 @@
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner /Google Colab
 
 ## RELATED THEORY CONCEPT:
-Algorithm for ANN Backpropagation:
+The Backpropagation algorithm is a supervised learning method for multilayer feed-forward networks from the field of Artificial Neural Networks.
 
-• Weight initialization: 
-        Set all weights and node thresholds to small random numbers. Note that the node threshold is the negative of the weight from the bias unit(whose activation level is fixed at 1). 
- 
-• Calculation of Activation: 
-</br>
-1.	The activation level of an input is determined by the instance presented to the network. 
-2.	The activation level oj of a hidden and output unit is determined. 
+Feed-forward neural networks are inspired by the information processing of one or more neural cells, called a neuron. A neuron accepts input signals via its dendrites, which pass the electrical signal down to the cell body. The axon carries the signal out to synapses, which are the connections of a cell’s axon to other cell’s dendrites.
 
-• Weight training:
+The principle of the backpropagation approach is to model a given function by modifying internal weightings of input signals to produce an expected output signal. The system is trained using a supervised learning method, where the error between the system’s output and a known expected output is presented to the system and used to modify its internal state.
 
-1.	Start at the output units and work backward to the hidden layer recursively and adjust weights. 
-
-2.	The weight change is completed. 
-
-3.	The error gradient is given by: 
-
-a.	For the output units. 
-
-b.	For the hidden units.
-
-4.	Repeat iterations until convergence in term of the selected error criterion. An iteration includes presenting an instance, calculating activation and modifying weights.
+Technically, the backpropagation algorithm is a method for training the weights in a multilayer feed-forward neural network. As such, it requires a network structure to be defined of one or more layers where one layer is fully connected to the next layer. A standard network structure is one input layer, one hidden layer, and one output layer.
 
 ## ALGORITHM:
 1. Import packages.
 2. Defining Sigmoid Function for output.
 3. Derivative of Sigmoid Function.
-4.Initialize variables for training iterations and learning rate.
+4. Initialize variables for training iterations and learning rate.
 5. Defining weight and biases for hidden and output layer.
 6. Updating Weights.
 
