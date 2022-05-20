@@ -16,6 +16,7 @@ The principle of the backpropagation approach is to model a given function by mo
 
 Technically, the backpropagation algorithm is a method for training the weights in a multilayer feed-forward neural network. As such, it requires a network structure to be defined of one or more layers where one layer is fully connected to the next layer. A standard network structure is one input layer, one hidden layer, and one output layer.
 
+<br><br><br>
 ## ALGORITHM:
 1. Import packages.
 2. Defining Sigmoid Function for output.
